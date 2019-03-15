@@ -3,7 +3,7 @@ def line(arr)
   if arr.length == 0
     puts "The line is currently empty."
   else
-     arr.each_with_index do |name, index|
+    arr.each_with_index do |name, index|
     arrline.push("#{index+1}. #{name}")
   end
     puts "The line is currently: #{arrline.join(" ")}"
